@@ -40,7 +40,9 @@ li {
 }
 
 a:hover, a:before, a:after, a:active {
-  color: white;
+  background-color: white;
+  padding-top: auto;
+  padding-bottom: auto;
 }
 
 .navigation {
@@ -55,46 +57,62 @@ a:hover, a:before, a:after, a:active {
   background-color: #ff8d2fc7;
   padding-top: 20px;
   padding-bottom: 20px;
-  
+  padding-left: 146px;
 }
 img {
   border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 30px;
+  margin-right: 30px;
   position: relative;
+  display: inline;
 }
 
 .section {
   text-align: center;
   position: relative;
+  padding-left: 206px;
+  padding-right: 241px;
 }
 
 
-h1, p {
+.section > h1, p {
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   position: relative;
+  bottom: 163px;
+  left: 27px;
+}
+
+main {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* SECTION 2 */
 
-#aboutme {
-  width: 50%;
-  height: auto;
-  border: 2px solid black;
-  margin: 0 auto;
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
+#about {
   position: relative;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#aboutme {
+  display: flex;
+  
 }
 
-.column {
-  background-color: aliceblue;
-  height: 40px;
-  width: 40px;
-  text-align: center;
+#aboutme div {
   border: 1px solid black;
-  position: relative;
+  background-color: #ff8d2fc7;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  width: 100%;
+}
+
+div > h5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
