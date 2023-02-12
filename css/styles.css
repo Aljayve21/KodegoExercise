@@ -57,19 +57,32 @@ a:hover, a:before, a:after, a:active, a:hover {
   background-color: #ff8d2fc7;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
-  
+  padding-left: 65px;
+  padding-right: 65px;
+  justify-content: space-between;
+}
+
+.fix {
+  position: relative;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid red;
+  overflow: hidden;
 }
 .avatar {
   border-radius: 50%;
-  height: auto;
 }
 
 .section {
   text-align: center;
-  padding-left: 206px;
+  padding-left: 285px;
   padding-right: 241px;
+}
+
+section {
+  position: relative;
 }
 
 
@@ -77,8 +90,9 @@ a:hover, a:before, a:after, a:active, a:hover {
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   position: relative;
-  bottom: 163px;
-  left: 27px;
+  bottom: 160px;
+  left: 30px;
+  font-size: 30px;
 }
 
 main {
@@ -119,6 +133,7 @@ main {
   font-size: 20px;
   margin: 20px;
   width: 100%;
+  position: relative;
 }
 
 div > h5 {
